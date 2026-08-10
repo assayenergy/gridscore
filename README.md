@@ -8,7 +8,7 @@ filings, and sponsor track record — with every point traced to a cited public 
 capture date. Where no public evidence was found, the score says so explicitly, and says what
 that does and doesn't mean.
 
-**Read the analysis:** [Two Days Before Texas Ordered Its Data Center Audit, I Ran One by Hand](#) *(link pending publication)*
+**Read the analysis:** [The Texas Governor Ordered a Data Center Audit. I Already Started One by Hand](https://vishtella.substack.com/p/the-texas-governor-ordered-a-data)
 
 ## What's in this repo
 

@@ -1,6 +1,6 @@
-# Two Days Before Texas Ordered Its Data Center Audit, I Ran One by Hand
+# The Texas Governor Ordered a Data Center Audit. I Already Started One by Hand
 
-**The Governor just ordered ERCOT to audit every data center in its queue. I'd spent the week before doing exactly that, by hand, from public records.**
+**Governor Abbott ordered ERCOT to verify every data center in its queue. I ran the same exercise from public records alone. Here is what it found, and where the record goes dark.**
 
 ---
 
@@ -8,7 +8,7 @@ Texas is now tracking about 474.7 GW of large-load interconnection requests. Rou
 
 Last week I tried to close that gap the only way currently possible, which is by hand. I took the 21 largest publicly announced ERCOT-bound data center projects, about 28.7 GW of disclosed capacity, from an 11 GW Panhandle campus down to a 190 MW site, and scored each one on five public-record signals: site control (deed and government records), physical commitment (TCEQ permits for on-site generators), financial commitment (fees, agreements, financing disclosures), incentive filings (state registries and county abatements), and sponsor track record (has this developer actually energized what it announced before). Every point traces to a cited source. Where I found nothing, the score says so, and says what that does and doesn't mean.
 
-Then, on August 3, two days before I planned to publish, Governor Abbott directed the PUCT and ERCOT to verify and audit every data center in the interconnection process before approving more. The state hit the same wall I did. The difference is that the state can compel disclosure. I can only read what's public. That gap is basically what this piece is about.
+Then, on August 3, midway through my digging, Governor Abbott directed the PUCT and ERCOT to verify and audit every data center in the interconnection process before approving more. I finished my version two days later. The state hit the same wall I did. The difference is that the state can compel disclosure. I can only read what is public. That gap is basically what this piece is about.
 
 ## What the scoring found
 
@@ -40,7 +40,7 @@ Every signal also carries a provenance tag, government-record versus press-repor
 
 The most important thing here isn't any single score. It's that a determined person with public records can only verify so much, and the gap between what's announced and what's checkable is the real story of the Texas data center boom. No public queue reconciliation. Permits that file no public notice. An incentive program the whole sector is statutorily invisible in. Land held through SPVs you can't trace unless a government counterparty forces the record open. The Governor's audit order exists because the state ran into the same opacity. They can subpoena their way through it. The rest of the market cannot.
 
-That's why this is piece two of a series. Piece one priced what grid flexibility is worth, node by node ([FLEXVALUE LINK]). This one scores how much of the demand behind that flexibility is actually evidenced. Same opacity, mapped from two sides.
+That's why this is piece two of a series. Piece one priced what grid flexibility is worth, node by node (https://vishtella.substack.com/p/i-priced-grid-flexibility-at-10-texas). This one scores how much of the demand behind that flexibility is actually evidenced. Same opacity, mapped from two sides.
 
 ## The table
 
@@ -70,7 +70,7 @@ That's why this is piece two of a series. Piece one priced what grid flexibility
 
 *Scores for "n/o (§106.511)" projects (renormalized: Haskell/Journey, Denton, Childress, Beacon Point, Garden City, Project Caprock, Bosque County, Kaufman County, Grand Prairie) are computed over the four observable signals only — see methodology.md for the full rule and a side-by-side against the standard /100 basis.*
 
-The full evidence appendix, every score, every citation, every "not observable" call, is in the open repo: [REPO LINK].
+The full evidence appendix, every score, every citation, every "not observable" call, is in the open repo: https://github.com/tptella/gridscore.
 
 ## The ask
 
@@ -80,4 +80,4 @@ And if you hold exposure to specific projects, as counterparty, comp, or credit,
 
 ---
 
-*Methodology, scoring rules, and the full evidence appendix: [REPO LINK]. Sources: county records, TCEQ, Texas Comptroller registries, PUCT and ERCOT documents, SEC filings, court records. Piece one: [FLEXVALUE LINK]. Subscribe for piece three.*
+*Methodology, scoring rules, and the full evidence appendix: https://github.com/tptella/gridscore. Sources: county records, TCEQ, Texas Comptroller registries, PUCT and ERCOT documents, SEC filings, court records. Piece one: https://vishtella.substack.com/p/i-priced-grid-flexibility-at-10-texas. Subscribe for piece three.*
