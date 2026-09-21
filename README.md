@@ -1,3 +1,5 @@
+> Part of **Assay Energy** — claims about large power projects, checked against the public record. The full ledger, method, and track record live at [assayenergy/ledger](https://github.com/assayenergy/ledger).
+
 # GridScore
 
 GridScore scores the 21 largest publicly announced ERCOT-bound data center projects in Texas on
