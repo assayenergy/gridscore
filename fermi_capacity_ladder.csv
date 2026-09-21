@@ -1,0 +1,6 @@
+rung,mw,claim_type,source,date
+Marketed,17000,company claim,"Fermi press release, ""upsizing campus projections to 17GW"" (original 2025 announcement: 11,000 MW)",~March 2026
+Permitted,6000,"aggregate nameplate capacity of TCEQ-permitted equipment, as described by Fermi and TCEQ's public announcement of the action (not confirmed as literal TCEQ order-text language)",TCEQ Docket 2025-1898-AIR / Permit 181009,2026-02-25
+Planned,4800,"company claim, SEC-disclosed; Q2 2026 investor presentation Slide 9 states ""doubles power to market to 4.8 GW"" -- note: the exact figure ""2.2 GW"" does not appear in that presentation, which implies a ~2.4 GW baseline (doubled), not fully reconcilable with the separately-reported ""HillCore adds 2.6 GW"" framing (2.4+2.6=5.0, not 4.8)",Fermi Q2 2026 investor presentation (8-K exhibit) + Hillcore framework agreement,2026-08-11 / 2026-08-13
+Under binding lease,222,"company claim, SEC-material",TensorWave lease Phase 1 (binding; delivery/revenue commence H2 2027),2026-08-10
+Operating,0,independent record -- none shown in the public record,,2026-09-21

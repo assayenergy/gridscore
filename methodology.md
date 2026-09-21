@@ -1,6 +1,6 @@
 # GridScore v0: Methodology
 
-How I scored readiness for the 20 [21] largest publicly announced ERCOT-bound data center
+How I scored readiness for the 21 largest publicly announced ERCOT-bound data center
 projects, what evidence it's built on, and where the score is deliberately conservative,
 incomplete, or contested.
 
@@ -154,6 +154,35 @@ Aligned and ECP+KKR both cross Announced-only→Progressing, and Core Scientific
 Progressing→Evidenced. All three moves point the same direction (upward), because renormalization
 is systematically more generous whenever a project's other four signals are strong relative to 75
 — exactly the projects where a flat +5-out-of-100 credit was underselling them the most.
+
+## The Financial Commitment scoring scale (written down explicitly, 2026-09-21)
+
+This scale existed implicitly from the start but wasn't ever written out as a rubric until the
+Fermi refresh forced the question of "why 12, not 10 or 15" to be answered precisely. Applying it
+retroactively as a checklist, not just prose:
+
+| Score | What it represents |
+|---|---|
+| **0–2** | No project-specific financing evidence; active negative events (a cancelled deal, a withdrawn commitment) with nothing to offset them. |
+| **5** | Corporate-level financing exists (the sponsor has raised money, generally), but there is no project-specific agreement, and/or the company states outright that it has no binding tenant. |
+| **8–10** | A project-specific agreement exists but is preliminary, non-binding, or a framework/MOU stage — not yet executed. |
+| **12–13** | An executed, SEC-material, project-specific agreement exists (a lease, a PPA, an interconnection agreement), *with one or more specific, named reasons to discount full confidence in it* — a retracted claim, an unresolved concentration risk, a liquidity red flag sitting next to the deal. |
+| **15** | The above, with no material discount factors identified. |
+
+A future-dated performance/delivery date on an otherwise-executed agreement is **not**, on its own,
+a reason to score below 12–13 — the rubric's bar is "executed," not "currently revenue-generating,"
+and a forward performance date is a normal feature of this class of contract, not a sponsor-specific
+weakness. What *does* justify sitting at 12–13 rather than 15 has to be a specific, named fact about
+that particular deal (see Fermi's evidence file for a worked example: a retracted guarantor claim,
+a repeat single-tenant concentration pattern, and a sharp cash drawdown immediately adjacent to the
+signing).
+
+**Projects currently scored 15/15 on Financial Commitment, flagged for re-check against this
+explicit scale in the next refresh pass** (they were scored before the scale was written down, on
+the same underlying judgment but without this checklist to audit against): Meta (El Paso, #9), Hut 8
+(Beacon Point, #10), Riot Platforms (Corsicana, #12), Core Scientific (Denton, #16), Cipher Mining
+(Barber Lake, #17), Energy Capital Partners + KKR/CyrusOne (Bosque County, #21). None of these are
+known to be wrong — this is a consistency-audit flag, not a claim that any of them should move.
 
 ## Known limitations (v0)
 

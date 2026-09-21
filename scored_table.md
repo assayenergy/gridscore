@@ -22,16 +22,25 @@ order computed before the renormalization pass — Riot (80) was listed above Ha
 and Core Scientific (76) was listed near the bottom of the Evidenced band instead of near the top.
 Re-sorted below by total score, descending, ties sharing a rank. No scores changed, only the order.
 
+**Correction (2026-09-21 Fermi refresh):** Fermi's row is updated below — Financial 5→12,
+Incentive 7→15, Track Record unchanged at 3, total 65→80, tier Progressing→Evidenced. The Incentive
+change is a correction to a research miss (an executed Carson County tax abatement existed since
+2025-10-27 and was missed originally), not new information; the Financial change reflects genuinely
+new evidence since Aug 5 (a first binding customer lease, closed convertible notes, confirmed
+capex). See `evidence/01-fermi-america-project-matador.md` for the full citation trail, including
+two corrected/removed claims from the prior draft (a misattributed 8-K accession, and litigation
+that had the moving party backwards).
+
 | Rank | Project | Sponsor | County | MW | Site (25) | Physical (25) | Financial (15) | Incentive (15) | Track Record (20) | **Total** | Scoring basis | Tier | Reversal |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 1 | El Paso AI Data Center | Meta | El Paso Co. | 1,000 | 25 | 22 | 15 | 15 | 20 | **97** | standard /100 | Evidenced | — |
 | 2 | Panhandle — Haskell Co. ("Journey") | Google | Haskell Co. | n/d | 20 | n/o (§106.511) | 10 | 15 | 20 | **87** | renormalized /75 | Evidenced | — |
+| 3 | Project Matador (HyperGrid) | Fermi America | Carson Co.* | 11,000 | 25 | 25 | 12 | 15 | 3 | **80** | standard /100 | Evidenced | **YES** |
 | 3 | Corsicana Facility | Riot Platforms | Navarro Co. | 1,000 | 22 | 20 | 15 | 7 | 16 | **80** | standard /100 | Evidenced | — |
-| 4 | Denton Campus | Core Scientific | Denton Co. | 391 | 25 | n/o (§106.511) | 15 | 7 | 10 | **76** | renormalized /75 | Evidenced | — |
-| 5 | Abilene Campus | Crusoe/Lancium | Taylor Co. | 2,100 | 12 | 25 | 10 | 7 | 18 | **72** | standard /100 | Evidenced | — |
-| 5 | Panhandle — Armstrong Co. | Google | Armstrong Co. | n/d | 15 | 25 | 5 | 7 | 20 | **72** | standard /100 | Evidenced | — |
-| 5 | Barber Lake | Cipher Mining | Mitchell Co. | 300 | 22 | 12 | 15 | 7 | 16 | **72** | standard /100 | Evidenced | — |
-| 8 | Project Matador (HyperGrid) | Fermi America | Carson Co.* | 11,000 | 25 | 25 | 5 | 7 | 3 | **65** | standard /100 | Progressing | **YES** |
+| 5 | Denton Campus | Core Scientific | Denton Co. | 391 | 25 | n/o (§106.511) | 15 | 7 | 10 | **76** | renormalized /75 | Evidenced | — |
+| 6 | Abilene Campus | Crusoe/Lancium | Taylor Co. | 2,100 | 12 | 25 | 10 | 7 | 18 | **72** | standard /100 | Evidenced | — |
+| 6 | Panhandle — Armstrong Co. | Google | Armstrong Co. | n/d | 15 | 25 | 5 | 7 | 20 | **72** | standard /100 | Evidenced | — |
+| 6 | Barber Lake | Cipher Mining | Mitchell Co. | 300 | 22 | 12 | 15 | 7 | 16 | **72** | standard /100 | Evidenced | — |
 | 9 | Childress Campus | Crusoe/Lancium | Childress Co. | 1,000 | 15 | n/o (§106.511) | 8 | 7 | 18 | **64** | renormalized /75 | Progressing | — |
 | 10 | Beacon Point | Hut 8 | Nueces Co. | 1,000 | 10 | n/o (§106.511) | 15 | 7 | 14 | **61** | renormalized /75 | Progressing | — |
 | 11 | Frontier | Vantage Data Centers | Shackelford Co. | 1,400 | 12 | 25 | 8 | 4 | 10 | **59** | standard /100 | Progressing | — |
@@ -78,14 +87,23 @@ because those points now carry more relative weight once Physical stops diluting
 Google/Haskell ("Journey") goes from sitting exactly on the Evidenced floor (70, fragile) to
 comfortably inside it (87) — a materially different confidence read on the same underlying facts.
 
-**Tier tallies, this version:** Evidenced 7 (was 6 under flat-credit, 5 before any Physical
-correction) · Progressing 8 (was 7) · Announced-only 6 (was 8).
+**Tier tallies, prior version (before the 2026-09-21 Fermi refresh):** Evidenced 7 · Progressing 8
+· Announced-only 6. **Current, after the Fermi refresh: Evidenced 8 · Progressing 7 · Announced-only
+6.** Fermi moved Progressing→Evidenced (65→80); no other project changed this pass.
 
 ## Reversal flags (informational only — not scored as penalties)
 
-- **Fermi America (Project Matador):** $150M tenant funding pact cancelled; no binding tenant as of
-  latest reporting; stock down ~65–80% since its Oct 1, 2025 IPO; open class-action lawsuit alleging
-  overstated tenant demand. See `evidence/01-fermi-america-project-matador.md`.
+- **Fermi America (Project Matador) — expanded 2026-09-21:** original reversal unchanged ($150M
+  tenant funding pact cancelled 2025-12-12, stock down ~33% same day, *Lupia v. Fermi Inc. et al.*,
+  No. 1:26-cv-00050 S.D.N.Y., plus a parallel Berger Montague filing). Since Aug 5: CEO Neugebauer
+  terminated **for Cause** (2026-04-30, 8-K/A accession 000121390026050183); CFO Everson resigned
+  (2026-04-19); Everson separately resigned **from the board** (2026-07-10, 8-K accession
+  000121390026077385) over a records-access/Finance-Committee dispute; *Neugebauer v. Fermi Inc. et
+  al.* (Cause No. 26-BC01B-0034, Business Court of Texas, amended 2026-09-21 to add 3 directors) and
+  *Fermi Inc. v. Neugebauer* (No. 5:2026cv00100, N.D. Tex., TRO denied); a reported, unconfirmed
+  (Bisnow) subpoena for Project Matador/former-management records. Counterweight, same window: first
+  binding customer lease (TensorWave) and first hardware on-site. Full citations in
+  `evidence/01-fermi-america-project-matador.md`.
 - **Poolside (Project Horizon):** CoreWeave's 250MW anchor lease terminated ~late March 2026 after
   Poolside's $2B Series C failed to close; project reported scaled to a 400MW revival with no
   replacement tenant as of July 30, 2026. See `evidence/03-poolside-project-horizon.md`.

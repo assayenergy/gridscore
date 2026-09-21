@@ -1,13 +1,25 @@
 # GridScore v0 — Key Stats
 
-All figures as of 2026-08-05, from the 21-project scored universe (`scored_table.csv`), reflecting
-the **renormalized** Physical Commitment treatment (Physical excluded from both numerator and
-denominator for the 9 projects whose generator setup plausibly qualifies for TCEQ permit-by-rule;
-total = other-four-signals / 75 × 100 — see `methodology.md` for the full rule and
-`scored_table.md` for the diff against the earlier flat-+5-credit version). MW figures used are the
-largest publicly stated announced figure per project (see `candidate_universe.md`); 2 of 21
-projects (Google's Armstrong and Haskell County campuses) have no disclosed per-site MW and are
-excluded from MW arithmetic below, noted separately.
+All figures as of 2026-09-21 (updated from the original 2026-08-05 baseline by a full evidence
+refresh of Fermi America/Project Matador — see `evidence/01-fermi-america-project-matador.md`),
+from the 21-project scored universe (`scored_table.csv`), reflecting the **renormalized** Physical
+Commitment treatment (Physical excluded from both numerator and denominator for the 9 projects
+whose generator setup plausibly qualifies for TCEQ permit-by-rule; total = other-four-signals / 75
+× 100 — see `methodology.md` for the full rule and `scored_table.md` for the diff against the
+earlier flat-+5-credit version). MW figures used are the largest publicly stated announced figure
+per project (see `candidate_universe.md`; Fermi's ledger value is intentionally held at its
+original 11,000 MW announcement, not the company's since-upsized 17,000 MW marketing claim — see
+the evidence file); 2 of 21 projects (Google's Armstrong and Haskell County campuses) have no
+disclosed per-site MW and are excluded from MW arithmetic below, noted separately.
+
+**2026-09-21 update:** Fermi's score moved from 65 (Progressing) to 80 (Evidenced) — Financial
+Commitment 5→12 (genuinely new evidence: a first binding customer lease, closed convertible notes,
+confirmed capex) and Incentive Filings 7→15 (a correction: an executed Carson County tax abatement
+existed since 2025-10-27 and was missed in the original research pass). Sponsor Track Record is
+unchanged at 3/20 — the governance turmoil and litigation since Aug 5 are logged as an expanded
+reversal flag, not a track-record score change, since the signal's own test (has anything been
+energized) is untouched by them. Every number below reflects this update; the August counterfactual
+section isolates what the correction alone (without the new Financial evidence) would have meant.
 
 ## Lead context: the Aug 3, 2026 Abbott directive
 
@@ -58,38 +70,51 @@ energize, and observes only **3,966 MW (0.8%)** actually drawing power. Whatever
 the "AI data center boom" in Texas turns out to be, the share of it that is currently operating,
 by ERCOT's own operational count, rounds to less than one percent of the announced pipeline.
 
-## Tier counts and aggregate MW (renormalized Physical treatment)
+## Tier counts and aggregate MW (as of 2026-09-21, post-Fermi-refresh)
 
 | Tier | # of projects | Aggregate announced MW (19 projects w/ disclosed MW) |
 |---|---|---|
-| Evidenced (70–100) | 7 | 4,791 MW |
-| Progressing (40–69) | 8 | 17,330 MW |
+| Evidenced (70–100) | 8 | 15,791 MW |
+| Progressing (40–69) | 7 | 6,330 MW |
 | Announced-only (0–39) | 6 | 6,601 MW |
 | **Total** | **21** | **28,722 MW** (across 19 MW-disclosed projects; 2 undisclosed — both in the Evidenced tier: Google's Armstrong and Haskell County campuses) |
 
-Tier composition has moved twice now, in the same direction each time — toward more projects
-scoring higher — as the Physical Commitment treatment for PBR-plausible projects went from a true
-zero, to a flat +5 credit, to full renormalization. Under renormalization, relative to the flat-+5
-version: Core Scientific/Denton crossed Progressing→Evidenced (62→76), and both Aligned/Caprock and
-ECP+KKR/Bosque crossed Announced-only→Progressing (38→44 and 35→40). Google/Haskell ("Journey"),
-already Evidenced under the flat credit, went from sitting exactly on the 70-point floor to a much
-more solid 87. See `scored_table.md`'s transparency table for the complete before/after.
+Fermi moved Progressing→Evidenced this refresh (65→80), carrying its 11,000 MW ledger value with
+it — that single move is why Evidenced is now the *largest* MW tier in the universe (15,791 MW)
+rather than the smallest (4,791 MW as of the prior key-stats.md version). Before this move, tier
+composition had shifted twice for other reasons (see `scored_table.md`'s transparency table): the
+Physical Commitment renormalization crossed Core Scientific into Evidenced and Aligned/ECP+KKR into
+Progressing.
 
 ## % of announced capacity that is Announced-only
 
-**6,601 / 28,722 MW = 23.0%** of all disclosed announced capacity in the universe sits in the
-Announced-only tier (0–39 points) — down from 26.2% at the start of this correction pass and 25.5%
-under the interim flat-credit version, as Marathon (Progressing), then Aligned and ECP+KKR
-(Progressing), moved out of this tier across the two corrections.
+**6,601 / 28,722 MW = 23.0%** — **unchanged by the Fermi refresh.** Fermi was never in the
+Announced-only tier, so its move between Evidenced and Progressing has zero effect on this figure.
+It's down from 26.2% at the start of the Physical Commitment correction pass and 25.5% under the
+interim flat-credit version, for reasons unrelated to Fermi (Marathon, then Aligned and ECP+KKR,
+moved out of Announced-only across those two corrections).
 
-**Sensitivity note:** Project Matador (Fermi America, 11,000 MW) is a single project responsible
-for 38% of all disclosed MW in the entire 21-project universe, and it scores 65/100 (Progressing)
-despite its size — full marks on Site Control and Physical Commitment, but a documented reversal
-(cancelled tenant funding, no binding tenant, class-action lawsuit) pulls its Sponsor Track Record
-score to 3/20. Strip Fermi out and the tier mix looks different: Progressing drops to 6,330 MW, and
-Announced-only's share of the *remaining* 17,722 MW rises to **37.3%**. Whether to report the
-headline number with or without this one outsized project is a real editorial choice, not a
-neutral one — flagging it rather than picking silently.
+## The August counterfactual — what if the abatement had been caught on Aug 5?
+
+Isolating just the incentive-filing correction (the Carson County abatement existed since
+2025-10-27 and was missed originally) from the genuinely-new Financial Commitment evidence found
+this refresh: Fermi's Aug-5-vintage score would have been **73** (Site 25 + Physical 25 + Financial
+5 + Incentive 15 + Track 3), not 65 — **Progressing→Evidenced on the correction alone**, before any
+of the September news. Because this counterfactual lands Fermi in the same tier (Evidenced) at the
+same MW value (11,000, held) as today's actual 80, **the effect on tier counts and MW-by-tier is
+identical to the table above** — Evidenced 8/15,791 MW, Progressing 7/6,330 MW, Announced-only
+unchanged at 6/6,601 MW. The **23% Announced-only headline does not change** under this
+counterfactual either, for the same reason it doesn't change today: Fermi was never in that tier.
+The +7-point gap between the 73 counterfactual and the actual 80 is entirely the Financial
+Commitment signal, and is genuinely new information from the last six weeks, not something a more
+careful Aug 5 pass would have caught.
+
+**Sensitivity note, updated:** Fermi's 11,000 MW is now inside the Evidenced tier, not Progressing.
+Stripping it out of Evidenced instead: Evidenced drops to 4,791 MW, and Announced-only's share of
+the *remaining* 17,722 MW-disclosed universe (excluding Fermi entirely) is 6,601/17,722 = **37.3%**
+— unchanged from the prior version of this note, since that calculation was always about removing
+Fermi from the *numerator's* base regardless of which tier it sat in. Whether to report the 23%
+headline with or without this one outsized project remains a real editorial choice.
 
 ## Most / least evidenced megaprojects
 
@@ -104,10 +129,16 @@ neutral one — flagging it rather than picking silently.
   Self-reported acreage with no CAD confirmation, no incentive filing found on any registry
   checked, and a founder with no direct prior data-center delivery background — none of that
   changed; only the Physical Commitment treatment did.
-- **Notable: size and evidence are not correlated.** The single largest announced project by MW
-  (Fermi, 11 GW) is not the most evidenced (65/100, mid-Progressing); the most evidenced project
-  on a like-for-like standard /100 basis (Meta, 97/100) is one of the smaller ones by announced MW
-  (1,000 MW, tied for largest-disclosed among the Evidenced tier).
+- **Notable: size and evidence still aren't tightly correlated, though this got weaker as a
+  finding this refresh.** As of 2026-09-21, Fermi (the single largest project by MW, 11 GW) scores
+  80/100 (Evidenced, tied for 3rd of 21) — no longer the clean "biggest ≠ best-evidenced" example it
+  was at 65/100. The underlying reason it moved is instructive rather than reassuring: the Financial
+  Commitment jump reflects a real signed lease, but Sponsor Track Record — the signal that most
+  directly asks "should you trust this sponsor" — is still 3/20 and, if anything, has more
+  documented reversal material behind it than before (see the expanded reversal flag). The most
+  evidenced project on a like-for-like standard /100 basis remains **Meta (97/100)**, at 1,000 MW —
+  one of the smaller projects in the universe — which is still the sharper illustration of the
+  point.
 
 ## The zero-JETI finding — and why it's structural, not coincidental
 
@@ -133,8 +164,10 @@ The incentive activity that does exist for these projects instead runs through t
 channels: (1) the Comptroller's separate §151.359 "Qualifying Data Center" sales-tax-exemption
 registry, which directly named 9 of the 21 projects (manually verified against the raw registry
 table, not an AI summary — see `evidence_appendix.md`); and (2) county/municipal property-tax
-abatements negotiated directly with a commissioners court or city council, confirmed for 2 of 21
-(Meta/El Paso, Google's Haskell/"Journey" site). [Ryan LLP](https://ryan.com/about-ryan/news-and-insights/2025/texas-jeti-incentive-strategy/), [KE Andrews](https://www.keatax.com/how-the-texas-jeti-act-shapes-manufacturing-energy-and-technology-investment/) — captured 2026-08-05.
+abatements negotiated directly with a commissioners court or city council, confirmed for **3 of 21**
+as of 2026-09-21 (Meta/El Paso; Google's Haskell/"Journey" site; and Fermi's Carson County Chapter
+312 abatement, executed 2025-10-27 and confirmed this refresh by reading the county-clerk-filed
+document directly — a fact that existed at the original Aug 5 capture and was missed then). [Ryan LLP](https://ryan.com/about-ryan/news-and-insights/2025/texas-jeti-incentive-strategy/), [KE Andrews](https://www.keatax.com/how-the-texas-jeti-act-shapes-manufacturing-energy-and-technology-investment/) — captured 2026-08-05, Fermi correction captured 2026-09-21.
 
 ## The permit-by-rule visibility finding
 

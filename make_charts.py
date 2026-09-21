@@ -198,8 +198,61 @@ def chart3_mw_by_tier():
     plt.close(fig)
 
 
+
+
+# ---------------------------------------------------------------------------
+# Chart 4: Fermi/Project Matador capacity ladder
+# ---------------------------------------------------------------------------
+
+def chart4_fermi_capacity_ladder():
+    import csv as _csv
+    with open(os.path.join(ROOT, "fermi_capacity_ladder.csv")) as f:
+        rows = list(_csv.DictReader(f))
+
+    labels = [r["rung"] for r in rows]
+    values = [int(r["mw"]) for r in rows]
+    is_company_claim = ["company claim" in r["claim_type"] for r in rows]
+    colors = [C_ANCILLARY if c else C_4CP for c in is_company_claim]
+
+    fig, ax = plt.subplots(figsize=FIGSIZE, dpi=DPI)
+    y = range(len(labels))
+    bars = ax.barh(list(y), values, color=colors, height=0.55, zorder=3)
+    ax.set_yticks(list(y))
+    ax.set_yticklabels(labels, fontsize=10.5)
+    ax.invert_yaxis()
+    ax.set_xlabel("Megawatts (MW)", fontsize=9.5)
+    ax.set_xlim(0, 17000 * 1.14)
+    ax.xaxis.grid(True, color=GRIDLINE, linewidth=0.8, zorder=0)
+    ax.set_axisbelow(True)
+    for spine in ["top", "right", "left"]:
+        ax.spines[spine].set_visible(False)
+    ax.spines["bottom"].set_color(GRIDLINE)
+
+    for bar, val, r in zip(bars, values, rows):
+        label = f"{val:,} MW" if val > 0 else "None shown in the public record"
+        if val > 1500:
+            ax.text(bar.get_width() - 220, bar.get_y() + bar.get_height() / 2, label,
+                     va="center", ha="right", fontsize=9.5, fontweight="bold", color="white")
+        else:
+            ax.text(bar.get_width() + 220, bar.get_y() + bar.get_height() / 2, label,
+                     va="center", ha="left", fontsize=9.5, fontweight="bold", color=INK_PRIMARY)
+
+    handles = [plt.Rectangle((0, 0), 1, 1, color=C_ANCILLARY),
+               plt.Rectangle((0, 0), 1, 1, color=C_4CP)]
+    ax.legend(handles, ["Company claim", "Independent record"],
+              loc="lower right", fontsize=8, frameon=False)
+
+    ax.set_title("Project Matador: capacity ladder, marketed to operating",
+                  fontsize=12.5, fontweight="bold", loc="left", pad=14, color=INK_PRIMARY)
+    fig.subplots_adjust(left=0.19, right=0.96, top=0.85, bottom=0.16)
+    footer(fig, "As of 2026-09-21 — see evidence/01-fermi-america-project-matador.md")
+    fig.savefig(os.path.join(CHART_DIR, "chart4_fermi_capacity_ladder.png"))
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     chart1_funnel()
     chart2_all_projects()
     chart3_mw_by_tier()
-    print("Wrote 3 charts to", CHART_DIR)
+    chart4_fermi_capacity_ladder()
+    print("Wrote 4 charts to", CHART_DIR)
