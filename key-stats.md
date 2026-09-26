@@ -3,7 +3,7 @@
 All figures as of 2026-09-21 (updated from the original 2026-08-05 baseline by a full evidence
 refresh of Fermi America/Project Matador — see `evidence/01-fermi-america-project-matador.md`),
 from the 21-project scored universe (`scored_table.csv`), reflecting the **renormalized** Physical
-Commitment treatment (Physical excluded from both numerator and denominator for the 9 projects
+Commitment treatment (Physical excluded from both numerator and denominator for the 10 projects
 whose generator setup plausibly qualifies for TCEQ permit-by-rule; total = other-four-signals / 75
 × 100 — see `methodology.md` for the full rule and `scored_table.md` for the diff against the
 earlier flat-+5-credit version). MW figures used are the largest publicly stated announced figure
@@ -70,13 +70,13 @@ energize, and observes only **3,966 MW (0.8%)** actually drawing power. Whatever
 the "AI data center boom" in Texas turns out to be, the share of it that is currently operating,
 by ERCOT's own operational count, rounds to less than one percent of the announced pipeline.
 
-## Tier counts and aggregate MW (as of 2026-09-21, post-Fermi-refresh)
+## Tier counts and aggregate MW (as of 2026-09-26, after the SB Energy re-score)
 
 | Tier | # of projects | Aggregate announced MW (19 projects w/ disclosed MW) |
 |---|---|---|
 | Evidenced (70–100) | 8 | 15,791 MW |
-| Progressing (40–69) | 7 | 6,330 MW |
-| Announced-only (0–39) | 6 | 6,601 MW |
+| Progressing (40–69) | 8 | 7,530 MW |
+| Announced-only (0–39) | 5 | 5,401 MW |
 | **Total** | **21** | **28,722 MW** (across 19 MW-disclosed projects; 2 undisclosed — both in the Evidenced tier: Google's Armstrong and Haskell County campuses) |
 
 Fermi moved Progressing→Evidenced this refresh (65→80), carrying its 11,000 MW ledger value with
@@ -162,8 +162,10 @@ an open, plant-by-plant question this session did not exhaustively chase.**
 
 The incentive activity that does exist for these projects instead runs through two *different*
 channels: (1) the Comptroller's separate §151.359 "Qualifying Data Center" sales-tax-exemption
-registry, which directly named 9 of the 21 projects (manually verified against the raw registry
-table, not an AI summary — see `evidence_appendix.md`); and (2) county/municipal property-tax
+registry, which directly named 11 of the 21 projects (manually verified against the raw registry
+table, not an AI summary — see `evidence_appendix.md`), plus a circumstantial-only match for
+Vantage/Frontier (Oracle-occupant entries; the registry prints no county, so not geographically
+confirmed); and (2) county/municipal property-tax
 abatements negotiated directly with a commissioners court or city council, confirmed for **3 of 21**
 as of 2026-09-21 (Meta/El Paso; Google's Haskell/"Journey" site; and Fermi's Carson County Chapter
 312 abatement, executed 2025-10-27 and confirmed this refresh by reading the county-clerk-filed
@@ -171,17 +173,19 @@ document directly — a fact that existed at the original Aug 5 capture and was 
 
 ## The permit-by-rule visibility finding
 
-TCEQ physical-commitment evidence is sharply bimodal by project size. **7 of 21 projects have a
-confirmed, docket-numbered TCEQ air permit or equivalent** (all among the largest sites — Fermi,
-Abilene, Vantage/Frontier, Meta, Google/Armstrong via Crusoe's "Goodnight" plant, Riot's TDLR
-permit, plus partial hits for Cipher). **9 of 21 have a power strategy that plausibly qualifies for
+**9 of 21 projects have permit
+evidence** (per `scored_table.csv`): **4 at full credit, 25/25** (Fermi, Abilene, Vantage/Frontier,
+Google/Armstrong via Crusoe's "Goodnight" plant) and **5 at partial credit** (Meta 22/25, PUC
+filing; Riot 20/25, TDLR building permit; Cipher 12/25, portable plant only; CloudBurst/San Marcos
+8/25, flood permit only; PowerHouse/Irving 5/25, building milestone only). With the 2 true zeros
+and the 10 not-observable projects below: 9 + 2 + 10 = 21. **10 of 21 have a power strategy that plausibly qualifies for
 TCEQ's "permit by rule" under 30 TAC §106.511** — grid interconnection plus standard-size
 backup/emergency generators, or reliance on an existing third-party plant — a category that
 requires **no individual public notice and no opportunity for a hearing**, the same permitting
-route commonly used for equipment like dry cleaners' boilers. For these 9, Physical Commitment is
+route commonly used for equipment like dry cleaners' boilers. For these 10, Physical Commitment is
 not scored as a zero or a partial credit; it is **excluded from the calculation entirely** and
 displayed as "n/o (§106.511)," with the total renormalized over the remaining 75 points (see
-`methodology.md`). **Only 3 of 21 (Poolside, Tract, SB Energy) remain a true zero** — cases where
+`methodology.md`). **Only 2 of 21 (Poolside, Tract) remain a true zero** (SB Energy moved to n/o (§106.511) on 2026-09-26; see `corrections.md`) — cases where
 the project's own stated power strategy would need an individually-permitted facility at scale, and
 none was found despite that expectation being reasonable.
 

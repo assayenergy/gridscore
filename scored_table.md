@@ -3,9 +3,9 @@
 Scored per the five-signal rubric. Tiers: 70–100 Evidenced · 40–69 Progressing · 0–39
 Announced-only. Two scoring regimes now coexist, both landing on the same 0–100 scale:
 
-- **Standard /100** — used for the 12 projects with either a confirmed Physical Commitment
+- **Standard /100** — used for the 11 projects with either a confirmed Physical Commitment
   finding (partial or full) or a genuine true zero. All 5 signals count, denominator is 100.
-- **Renormalized /75** — used for the 9 projects whose generator setup plausibly qualifies for
+- **Renormalized /75** — used for the 10 projects whose generator setup plausibly qualifies for
   TCEQ permit-by-rule (§106.511) coverage, meaning a public docket's absence is structurally
   uninformative, not evidence of anything. Physical Commitment is **excluded from both the
   numerator and the denominator** rather than scored: `total = (Site + Financial + Incentive +
@@ -42,13 +42,13 @@ that had the moving party backwards).
 | 6 | Panhandle — Armstrong Co. | Google | Armstrong Co. | n/d | 15 | 25 | 5 | 7 | 20 | **72** | standard /100 | Evidenced | — |
 | 6 | Barber Lake | Cipher Mining | Mitchell Co. | 300 | 22 | 12 | 15 | 7 | 16 | **72** | standard /100 | Evidenced | — |
 | 9 | Childress Campus | Crusoe/Lancium | Childress Co. | 1,000 | 15 | n/o (§106.511) | 8 | 7 | 18 | **64** | renormalized /75 | Progressing | — |
-| 10 | Beacon Point | Hut 8 | Nueces Co. | 1,000 | 10 | n/o (§106.511) | 15 | 7 | 14 | **61** | renormalized /75 | Progressing | — |
-| 11 | Frontier | Vantage Data Centers | Shackelford Co. | 1,400 | 12 | 25 | 8 | 4 | 10 | **59** | standard /100 | Progressing | — |
-| 12 | Garden City Facility | Marathon Digital | Glasscock Co. | 200 | 22 | n/o (§106.511) | 5 | 0 | 9 | **48** | renormalized /75 | Progressing | — |
-| 13 | Project Caprock | Aligned Data Centers | Hale Co. | 540 | 10 | n/o (§106.511) | 6 | 7 | 10 | **44** | renormalized /75 | Progressing | — |
-| 14 | Data Center Technology Park | Tract | Caldwell Co. | 2,000 | 18 | 0 (true zero) | 8 | 0 | 14 | **40** | standard /100 | Progressing | — |
-| 14 | Bosque County Campus | ECP+KKR/CyrusOne | Bosque Co. | 190 | 5 | n/o (§106.511) | 15 | 0 | 10 | **40** | renormalized /75 | Progressing | — |
-| 16 | Stargate Milam County | SB Energy (SoftBank) | Milam Co. | 1,200 | 20 | 0 (true zero) | 8 | 0 | 8 | **36** | standard /100 | Announced-only | — |
+| 10 | Stargate Milam County | SB Energy (SoftBank) | Milam Co. | 1,200 | 20 | n/o (§106.511) | 12 | 7 | 8 | **63** | renormalized /75 | Progressing | — |
+| 11 | Beacon Point | Hut 8 | Nueces Co. | 1,000 | 10 | n/o (§106.511) | 15 | 7 | 14 | **61** | renormalized /75 | Progressing | — |
+| 12 | Frontier | Vantage Data Centers | Shackelford Co. | 1,400 | 12 | 25 | 8 | 4 | 10 | **59** | standard /100 | Progressing | — |
+| 13 | Garden City Facility | Marathon Digital | Glasscock Co. | 200 | 22 | n/o (§106.511) | 5 | 0 | 9 | **48** | renormalized /75 | Progressing | — |
+| 14 | Project Caprock | Aligned Data Centers | Hale Co. | 540 | 10 | n/o (§106.511) | 6 | 7 | 10 | **44** | renormalized /75 | Progressing | — |
+| 15 | Data Center Technology Park | Tract | Caldwell Co. | 2,000 | 18 | 0 (true zero) | 8 | 0 | 14 | **40** | standard /100 | Progressing | — |
+| 15 | Bosque County Campus | ECP+KKR/CyrusOne | Bosque Co. | 190 | 5 | n/o (§106.511) | 15 | 0 | 10 | **40** | renormalized /75 | Progressing | — |
 | 17 | Grand Prairie Campus | PowerHouse/Provident | Ellis Co. | 1,800 | 10 | n/o (§106.511) | 6 | 0 | 8 | **32** | renormalized /75 | Announced-only | — |
 | 18 | San Marcos Data Center I | CloudBurst/Evolve | Hays/Guadalupe Co. | 1,200 | 12 | 8 | 10 | 0 | 0 | **30** | standard /100 | Announced-only | — |
 | 19 | Irving Campus | PowerHouse Data Centers | Dallas Co. | 201 | 10 | 5 | 5 | 0 | 8 | **28** | standard /100 | Announced-only | — |
@@ -88,8 +88,10 @@ Google/Haskell ("Journey") goes from sitting exactly on the Evidenced floor (70,
 comfortably inside it (87) — a materially different confidence read on the same underlying facts.
 
 **Tier tallies, prior version (before the 2026-09-21 Fermi refresh):** Evidenced 7 · Progressing 8
-· Announced-only 6. **Current, after the Fermi refresh: Evidenced 8 · Progressing 7 · Announced-only
-6.** Fermi moved Progressing→Evidenced (65→80); no other project changed this pass.
+· Announced-only 6. **After the Fermi refresh (2026-09-21): Evidenced 8 · Progressing 7 · Announced-only
+6.** Fermi moved Progressing→Evidenced (65→80); no other project changed that pass. **Current, after
+the SB Energy re-score (2026-09-26): Evidenced 8 · Progressing 8 · Announced-only 5.** SB Energy moved
+Announced-only→Progressing (36→63); see `corrections.md`.
 
 ## Reversal flags (informational only — not scored as penalties)
 
@@ -125,8 +127,9 @@ more than the flat credit did.
 | *Childress Campus (Crusoe/Lancium) — just outside the ~5 window* | Childress Co. | 64 | Evidenced floor | −6 (noting it since it's close, not a strict qualifier) |
 
 Excluded from this specific cut because their site-control confidence is government-record, not
-press-reported-only, even though their totals are also near a cutoff: SB Energy (36, government-
-record-but-inferred entity link, 4 below Progressing), Google/Haskell (87, government-record, no
+press-reported-only, even though their totals are also near a cutoff: SB Energy (63, re-scored from
+36 on 2026-09-26, see `corrections.md`; government-record via SEC exhibit; 70 − 63 = 7 below the
+Evidenced floor, just outside the ~5 window), Google/Haskell (87, government-record, no
 longer boundary-fragile after renormalization), Marathon (48, government-record, not close to a
 cutoff under the new total).
 

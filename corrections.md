@@ -75,3 +75,45 @@ made (`scored_table.md`, `key-stats.md`, `evidence_appendix.md`, `evidence/01-fe
 - Project 16 (Core Scientific, Denton): the `sponsor_track_record_source_url` in scoring_rubric_template.csv pointed to a TipRanks article about Marathon Digital's restatements, the source for project 19, apparently copied into the wrong row. It is replaced with Core Scientific's [10-K FY2024](https://www.sec.gov/Archives/edgar/data/1839341/000162828025008302/core-20241231.htm), which documents the Chapter 11 filing (2022-12-21) and emergence (2024-01-23). The Track Record score (10/20) is unchanged. The published rationale (`evidence_appendix.md`) rests on a clean site history since 2022 plus the Chapter 11, and uses nothing from the Marathon article. The rationale was uncited in `evidence/16`; see the open items below.
 - Projects 16 and 19 in scoring_rubric_template.csv: an unquoted comma in `physical_commitment_status` ("no evidence found (dead end, not absence)") had split one field into two, shifting every later column one place right (30 fields vs. a 29-column header). The field is now quoted and both rows have 29 fields. **No values changed.**
 - **Open, not changed (needs a decision):** `evidence/16` and scoring_rubric_template.csv row 16 (`sponsor_track_record_evidence`, `inferred_flags`) still describe Core Scientific as "being acquired by CoreWeave (~$9B deal)." Core Scientific terminated that merger agreement on 2025-10-30 after its stockholders did not approve it ([8-K, Item 1.02, accession 0001140361-25-039808](https://www.sec.gov/Archives/edgar/data/1839341/000114036125039808/ef20057995_8k.htm)). That predates the 2026-08-05 capture, so the statement was already stale when captured.
+
+---
+
+## 2026-09-26: SB Energy / Stargate Milam County re-scored 36 → 63 (`evidence/08-sb-energy-stargate-milam.md`)
+
+SB Energy / Stargate Milam re-scored 36 -> 63 (Progressing) after its S-1 (public 2026-09-01). Three errors: the Aug 5 incentive entry ('NOT a match') was wrong; the Comptroller registry entry is SB Energy's. The 'true zero' Physical label was wrong once the S-1 showed a co-located solar plan with backup engines registered under §106.511. The site-control basis cited a deed that likely covers a different parcel; the score now rests on the S-1 and a filed lease. The launch post (2026-09-25) and 'Three Places' piece repeated the old score; both carry correction notes on Substack. True zeros are now 2 of 21. methodology.md's '3 of 21' text will be updated with the September refresh (pending).
+
+- **Signals:**
+
+  | Signal | Before | After |
+  |---|---|---|
+  | Site | 20 | 20 (new basis) |
+  | Physical | 0, true zero | n/o (§106.511), excluded |
+  | Financial | 8 | 12 |
+  | Incentive | 0 | 7 |
+  | Track Record | 8 | 8 |
+  | Scoring basis | standard /100 | renormalized /75 |
+
+- **Arithmetic:**
+  - Before: 20 + 0 + 8 + 0 + 8 = 36.
+  - After: (20 + 12 + 7 + 8) / 75 × 100 = 47 / 75 × 100 = 62.67 → 63.
+- **Why, by error:**
+  1. **Incentive.** The Comptroller's "Milam County Data Center" entries name MDC Building 1, LLC, MDC Building 2, LLC, Orion DC I, LLC and Milam County DC, LLC. The S-1's EX-21.1 lists the MDC and Milam County DC entities as SB Energy subsidiaries, and S-1/A No. 2 p.248 names Orion DC I, LLC as the OpenAI-affiliated tenant. I called the entry "confirmed NOT a match" on 2026-08-05; that was wrong. The score is capped at 7 because execution of the county Ch. 312 abatement is not confirmed.
+  2. **Physical.** S-1/A No. 2 describes power from "co-located power generation assets" (p.248) delivered from Orion 1–3, the Ben Milam Solar projects (p.200, p.256). It has no gas plan for Milam. TCEQ shows PBR 183969 under §106.511 for SB Energy subsidiary SE DC Devco, LLC.
+  3. **Site.** The Southridge Land TX LLC / former-Alcoa deed is not named in the S-1 or EX-21.1. It likely covers a different parcel (INFERENCE). Site control now rests on S-1/A No. 2 p.11 ("Land Control") and EX-10.28, in which listed subsidiary Milam County DC, LLC leases "the Land" to the tenant. Owned vs. ground lease is open.
+  - **Financial** (new information, not a correction): executed, SEC-filed leases, discounted for four named factors (see evidence/08).
+- **Sources:**
+  - [S-1](https://www.sec.gov/Archives/edgar/data/2133037/000162828026059639/sbenergy-sx1.htm)
+  - [S-1/A No. 1 (EX-10.28, EX-10.29)](https://www.sec.gov/Archives/edgar/data/2133037/000162828026060761/sbenergy-sx1a1exhibitsonly.htm)
+  - [S-1/A No. 2](https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/sbenergy-sx1a2.htm)
+  - [EX-21.1](https://www.sec.gov/Archives/edgar/data/2133037/000162828026062846/exhibit211-sx1a2.htm)
+  - [Comptroller data center registry](https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php)
+  - [TCEQ Air Permits search](https://www2.tceq.texas.gov/airperm/index.cfm) (RN112444104)
+  - All captured 2026-09-26. Full comparison in `evidence/08-s1-vs-record-DRAFT.md`.
+- **Tier effect:**
+  - Before → after: Evidenced 8 / Progressing 7 / Announced-only 6 → 8 / 8 / 5.
+  - Progressing MW: 6,330 + 1,200 = 7,530.
+  - Announced-only MW: 6,601 − 1,200 = 5,401.
+  - Total unchanged: 15,791 + 7,530 + 5,401 = 28,722.
+- **Changed in this pass:** `evidence/08-sb-energy-stargate-milam.md`, `scored_table.csv` (row 8), `scored_table.md` (table row moved from rank 16 to rank 10; ranks 11–15 renumbered; tier tallies; watchlist note), `evidence_appendix.md` (entry 8; renormalized count 9 → 10), `key-stats.md` (tier table, true-zero count; renormalized count 9 → 10), `scored_table.md` intro counts (standard 12 → 11, renormalized 9 → 10), `scoring_rubric_template.csv` (row 8, new basis), `key-stats.md` registry count (9 → 11, plus Frontier's circumstantial match noted as such) and permit count (7 → 9, split 4 full / 5 partial), `make_charts.py` (chart 2 footer: the hardcoded "9 scores renormalized" now counts renormalized rows from `scored_table.csv`, giving 10), `charts/chart2_all_projects.png` and `charts/chart3_mw_by_tier.png` (regenerated).
+- key-stats.md registry (9 -> 11) and permit (7 -> 9) counts were already stale before this pass; corrected to match scored_table.csv.
+- **Not changed, intentionally:** `essay-final.md` (published essay; gets a Substack note) and `methodology.md` (uncommitted refresh edits pending).

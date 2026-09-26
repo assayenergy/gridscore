@@ -145,7 +145,8 @@ def chart2_all_projects():
     ax.set_title("All 21 projects, ranked by GridScore total  ([R] = documented reversal)",
                   fontsize=10.8, fontweight="bold", loc="left", pad=10, color=INK_PRIMARY)
     fig.subplots_adjust(left=0.34, right=0.96, top=0.90, bottom=0.145)
-    footer(fig, "9 scores renormalized — Physical excluded per §106.511 (see methodology.md)")
+    n_renorm = sum(r["scoring_basis"].startswith("renormalized") for r in rows)
+    footer(fig, f"{n_renorm} scores renormalized — Physical excluded per §106.511 (see methodology.md)")
     fig.savefig(os.path.join(CHART_DIR, "chart2_all_projects.png"))
     plt.close(fig)
 

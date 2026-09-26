@@ -12,8 +12,8 @@ results for several matches that the raw table confirms or refutes cleanly.
 scoring entirely and renormalized** — not scored as a zero, and not given a flat partial credit
 either (an interim flat-+5 version was tried and superseded; see `methodology.md`) — displayed as
 **"n/o (§106.511)"** because their generator setup plausibly qualifies for TCEQ permit-by-rule
-coverage, making a missing public docket structurally uninformative. For these 9,
-`total = (Site + Financial + Incentive + Track Record) ÷ 75 × 100`. Five of the nine end up in a
+coverage, making a missing public docket structurally uninformative. For these 10,
+`total = (Site + Financial + Incentive + Track Record) ÷ 75 × 100`. Five of the original nine end up in a
 different tier than they would have under the original true-zero scoring: Google/Haskell
 ("Journey") Progressing→Evidenced (65→87), Core Scientific/Denton Progressing→Evidenced (57→76),
 Marathon/Garden City Announced-only→Progressing (36→48), Project Caprock/Aligned Announced-only→
@@ -79,17 +79,23 @@ Financial 10 (named Energy Transfer gas-supply agreement), Incentive 0, Track Re
 independently researched this session — this score reflects incomplete research, not a confirmed
 absence of track record; flagged, not to be read as a finding).
 
-**8. SB Energy — Stargate Milam County (36, Announced-only).** Site 20 (a real deed was filed with
-Milam County for ~4,709 acres, but the connection to SB Energy runs through a registered Menlo
-Park address for "Southridge Land TX LLC," not a named party — inferred, not confirmed). Physical
-**0 — true zero, not NOC**: SB Energy's own materials describe building new, dedicated generation
-to supply "the majority of the campus's power" — a scale of primary generation that, like Fermi's
-or Vantage's, would need an individual TCEQ permit and should be publicly visible; none was found,
-which is a more meaningful absence here than at the smaller, grid-reliant projects. Financial 8
-(corporate-level $1B SoftBank/OpenAI investment), Incentive 0 (the registry's own
-"Milam County Data Center" entry uses entirely different LLC names — MDC Building 1 LLC / Orion DC
-I LLC — confirmed as a *different*, unrelated Milam County project on manual check), Track Record 8
-(strong utility-solar delivery record, zero data-center-specific record).
+**8. SB Energy — Stargate Milam County (63, Progressing; re-scored 2026-09-26 from 36,
+Announced-only, after SB Energy's S-1 — see `corrections.md`).** Site 20, government-record (SEC
+exhibit): the S-1 marks "Land Control" for both Milam buildings (S-1/A No. 2 p.11), and in EX-10.28
+the landlord, listed subsidiary Milam County DC, LLC, leases "the Land" to the tenant. Whether the
+land is owned or ground-leased is not stated (open). The deed previously cited here (Southridge Land
+TX LLC, former Alcoa site) likely covers a different parcel (INFERENCE). Physical **n/o
+(§106.511)**, renormalized: the S-1 describes power from "co-located power generation assets" (p.248)
+delivered from the Ben Milam Solar (Orion 1–3) projects (p.200), with no gas-generation plan for Milam.
+The only TCEQ air authorization found is PBR 183969 under §106.511, held by SB Energy subsidiary SE DC
+Devco, LLC. Financial 12 (two executed, SEC-filed leases with an OpenAI affiliate, guaranteed by
+OpenAI Global, LLC; discounted for construction financing "not yet closed", related-party
+concentration, tenant buy-out rights after 365 days' delay, and ERCOT's energization pause).
+Incentive 7 (§151.359 registry match: the "Milam County Data Center" entry that this appendix
+previously called unrelated belongs to SB Energy subsidiaries per the S-1's EX-21.1; a county Ch. 312
+abatement is on 2025 agendas, but execution is not confirmed). Track Record 8 (strong utility-solar
+delivery record, zero data-center-specific record; the S-1 confirms "No data center capacity is
+currently in operation"). Total (20 + 12 + 7 + 8) / 75 × 100 = 62.67 → 63.
 
 **9. Meta — El Paso (97, Evidenced — highest score in the universe).** Site 25 (Wurldwide LLC,
 Meta's own named SPV, bought city-owned land via a council-approved sale). Physical 22 (PUC filing
