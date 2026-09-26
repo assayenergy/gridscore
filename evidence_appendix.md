@@ -40,8 +40,8 @@ found), Physical 25 (TCEQ Standard Permit approved 2025-01-22, ~360MW), Financia
 "Lancium Abilene Clean Campus" sub-buildings, I through VIII, most tenanted by Oracle America Cloud
 Services LLC), Track Record 18 (Phase 1 delivered groundbreak-to-operational in ~15 months).
 
-**3. Poolside — Project Horizon (26, Announced-only).** Site 15 (568-acre leasehold on the named
-Mitchell family's Longfellow Ranch), Physical **0 — true zero, not NOC** (Poolside's own stated
+**3. Poolside — Project Horizon (26, Announced-only).** Site 15 (568-acre leasehold on a private ranch site,
+Pecos County — landowner disclosed by sponsor Poolside; not an opaque LLC), Physical **0 — true zero, not NOC** (Poolside's own stated
 power strategy is dedicated primary generation via aero-derivative turbines, a scale that would
 need an individually-permitted facility like Fermi's or Vantage's, not a permit-by-rule-eligible
 backup array; TCEQ search surfaced only an unrelated project in the same county), Financial 2,
