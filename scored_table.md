@@ -94,8 +94,8 @@ comfortably inside it (87) — a materially different confidence read on the sam
 ## Reversal flags (informational only — not scored as penalties)
 
 - **Fermi America (Project Matador) — expanded 2026-09-21:** original reversal unchanged ($150M
-  tenant funding pact cancelled 2025-12-12, stock down ~33% same day, *Lupia v. Fermi Inc. et al.*,
-  No. 1:26-cv-00050 S.D.N.Y., plus a parallel Berger Montague filing). Since Aug 5: CEO Neugebauer
+  tenant funding pact cancelled 2025-12-12, stock down 33.8% same day, one securities class action, *Lupia v. Fermi Inc. et al.*,
+  No. 1:26-cv-00050 S.D.N.Y., filed 2026-01-05; corrected 2026-09-26, see corrections.md). Since Aug 5: CEO Neugebauer
   terminated **for Cause** (2026-04-30, 8-K/A accession 000121390026050183); CFO Everson resigned
   (2026-04-19); Everson separately resigned **from the board** (2026-07-10, 8-K accession
   000121390026077385) over a records-access/Finance-Committee dispute; *Neugebauer v. Fermi Inc. et

@@ -21,8 +21,9 @@ Progressing (33→44), and Bosque County/ECP+KKR Announced-only→Progressing (3
 tiers below reflect the renormalized scores; see `scored_table.md` for the full diff against both
 the true-zero and interim flat-+5-credit versions.
 
-**1. Fermi America — Project Matador (65, Progressing).** Site Control 25: 99-year leasehold over
-5,855 acres from the Texas Tech University System, a named public counterparty — about the
+**1. Fermi America — Project Matador (65, Progressing).** Site Control 25: 99-year ground lease over a
+5,236-acre site (4,523 acres commenced Sept. 2025 + a 713-acre tract pending; [424B4](https://www.sec.gov/Archives/edgar/data/2071778/000121390025094424/ea0252333-11.htm)
+pp.iii, 3, 44; [10-K FY2025](https://www.sec.gov/Archives/edgar/data/2071778/000207177826000010/frmi-20251231.htm) p.110; corrected 2026-09-26, see corrections.md) from the Texas Tech University System, a named public counterparty — about the
 strongest site-control paper trail in the universe, though the underlying *county* (Carson vs.
 Potter/Randall) is separately unresolved. Physical 25: TCEQ Docket 2025-1898-AIR, approved as the
 2nd-largest US Clean Air permit. Financial 5, Incentive 7 (registry match "Fermi Data Center 1,"
