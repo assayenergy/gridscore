@@ -16,6 +16,12 @@ County: Nueces · Announced: 1,000 MW · Sponsor: Hut 8 Corp.
 
 ## Incentive filings
 **No public evidence found (as of 2026-08-05).** Not found on the JETI current-agreements list or the Comptroller's Qualifying Data Center registry — dead end on both.
+- **Updated 2026-09-28 (label and status only; score unchanged, 7).** The scored table already
+  records a registry match found on a later manual re-check: "Beacon Point 1 Data Center," eff.
+  2026-04-16, in the "Registered Qualifying Large Data Center Projects" table (Tax Code §151.3595).
+  Re-checked 2026-09-28: no executed local agreement found; Nueces County's only item is an
+  executive-session discussion of a proposed Beacon Point reinvestment zone (agenda 2026-05-13).
+  [Comptroller registry](https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php) — captured 2026-09-28.
 
 ## Sponsor track record
 **Evidence found — positive, short history.** Hut 8 delivered Beacon Point's utility interconnection and fully commercialized the 1GW campus within its own announced timeline (2025–2026). Hut 8 itself is a relatively young company (2018-founded, formerly a pure Bitcoin miner) now pivoting into AI infrastructure — track record is positive but short, with no multi-cycle delivery history yet to draw on.

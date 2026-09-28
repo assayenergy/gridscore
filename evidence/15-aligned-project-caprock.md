@@ -13,7 +13,7 @@ County: Hale · Announced: 540 MW · Sponsor: Aligned Data Centers
 **Evidence found — partial.** $5B disclosed regional economic-investment figure. Aligned states it is self-funding the dedicated electrical infrastructure for the campus (working with Xcel Energy, a named utility) rather than relying on grid capacity alone — a notable, if not fully quantified, financial commitment.
 
 ## Incentive filings
-**Evidence found — strong, direct match.** Aligned Data Centers appears on the Comptroller's Qualifying Data Center registry as "Abernathy (LBB01)" — LBB-01 is the exact name Aligned itself uses for Caprock's first building. This is the clearest possible name-level match found in the registry check.
+**Evidence found — strong, direct match.** Aligned Data Centers appears on the Comptroller's Qualifying Data Center registry (the "Registered Qualifying Data Center Projects" table, Tax Code §151.359; statute label added 2026-09-28) as "Abernathy (LBB01)" — LBB-01 is the exact name Aligned itself uses for Caprock's first building. This is the clearest possible name-level match found in the registry check.
 - Source: [Comptroller Data Center lists](https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php) — captured 2026-08-05. Manual-verification caveat still applies (AI-summarized fetch).
 
 ## Sponsor track record

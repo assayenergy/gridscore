@@ -175,10 +175,14 @@ def chart3_mw_by_tier():
         ax.barh(0, v, left=left, color=c, height=bar_height, zorder=3,
                 edgecolor=SURFACE, linewidth=1.5)
         pct = v / total * 100
-        if v / total > 0.05:
+        if v / total > 0.20:
             ax.text(left + v / 2, 0, f"{t}\n{v:,.1f} GW ({pct:.0f}%)",
                      ha="center", va="center", fontsize=9.5, fontweight="bold",
                      color="white" if t != "Progressing" else INK_PRIMARY)
+        elif v > 0:
+            # narrow segment: label below the bar, right-aligned so it stays inside the axes
+            ax.text(left + v, -bar_height / 2 - 0.12, f"{t}\n{v:,.1f} GW ({pct:.0f}%)",
+                     ha="right", va="top", fontsize=9.5, fontweight="bold", color=c)
         left += v
 
     ax.set_xlim(0, total)

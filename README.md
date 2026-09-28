@@ -17,8 +17,8 @@ that does and doesn't mean.
 - **[spec.md](spec.md)**: the original project brief — the five-signal rubric, weights, and
   session plan this whole exercise followed.
 - **[methodology.md](methodology.md)**: how each signal is scored, the site-control confidence
-  labels, the §151.359-vs-JETI distinction, the Physical Commitment renormalization rule (and why
-  a flat credit was tried and rejected first), and every known limitation. Start here if you want
+  labels, the Comptroller registry (§151.359 / §151.3595)-vs-JETI distinction, the Physical
+  Commitment renormalization rule (and why a flat credit was tried and rejected first), and every known limitation. Start here if you want
   to check the scoring logic before trusting a number.
 - **[candidate_universe.md](candidate_universe.md)**: how the 21-project universe was compiled,
   the market-opacity finding (no public way to reconcile a named project against ERCOT's queue),
@@ -41,8 +41,8 @@ that does and doesn't mean.
 
 County appraisal district and county clerk records (where accessible); TCEQ air permit dockets
 and public-notice filings; the Texas Comptroller's JETI current-agreements list and separate
-§151.359 Qualifying Data Center registry (read as raw HTML, not summarized); PUCT and ERCOT
-filings and monthly operational reports; SEC filings (8-K, 10-K, and related exhibits) for
+data center registry, Tax Code §151.359 and §151.3595 tables (read as raw HTML, not summarized);
+PUCT and ERCOT filings and monthly operational reports; SEC filings (8-K, 10-K, and related exhibits) for
 publicly traded sponsors; county commissioners court and city council records for incentive
 agreements; and federal court filings for the one documented securities litigation referenced.
 Full citations are inline in `evidence/` and `evidence_appendix.md`.

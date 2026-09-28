@@ -1,9 +1,10 @@
 # GridScore v0 — Key Stats
 
-All figures as of 2026-09-21 (updated from the original 2026-08-05 baseline by a full evidence
-refresh of Fermi America/Project Matador — see `evidence/01-fermi-america-project-matador.md`),
+All figures as of 2026-09-28 (updated from the original 2026-08-05 baseline by a full evidence
+refresh of Fermi America/Project Matador on 2026-09-21 — see `evidence/01-fermi-america-project-matador.md`
+— the SB Energy re-score on 2026-09-26, and the September audit on 2026-09-28 — see `corrections.md`),
 from the 21-project scored universe (`scored_table.csv`), reflecting the **renormalized** Physical
-Commitment treatment (Physical excluded from both numerator and denominator for the 10 projects
+Commitment treatment (Physical excluded from both numerator and denominator for the 12 projects
 whose generator setup plausibly qualifies for TCEQ permit-by-rule; total = other-four-signals / 75
 × 100 — see `methodology.md` for the full rule and `scored_table.md` for the diff against the
 earlier flat-+5-credit version). MW figures used are the largest publicly stated announced figure
@@ -70,14 +71,22 @@ energize, and observes only **3,966 MW (0.8%)** actually drawing power. Whatever
 the "AI data center boom" in Texas turns out to be, the share of it that is currently operating,
 by ERCOT's own operational count, rounds to less than one percent of the announced pipeline.
 
-## Tier counts and aggregate MW (as of 2026-09-26, after the SB Energy re-score)
+## Tier counts and aggregate MW (as of 2026-09-28, after the September audit)
+
+Recomputed from `scored_table.csv` (`make_charts.py` chart 3 uses the same sum).
 
 | Tier | # of projects | Aggregate announced MW (19 projects w/ disclosed MW) |
 |---|---|---|
-| Evidenced (70–100) | 8 | 15,791 MW |
-| Progressing (40–69) | 8 | 7,530 MW |
-| Announced-only (0–39) | 5 | 5,401 MW |
-| **Total** | **21** | **28,722 MW** (across 19 MW-disclosed projects; 2 undisclosed — both in the Evidenced tier: Google's Armstrong and Haskell County campuses) |
+| Evidenced (70–100) | 8 | 16,791 MW |
+| Progressing (40–69) | 9 | 8,530 MW |
+| Announced-only (0–39) | 4 | 3,401 MW |
+| **Total** | **21** | **28,722 MW** (across 19 MW-disclosed projects; 2 undisclosed — Google's Haskell County campus, Evidenced, and Google's Armstrong County campus, Progressing since 2026-09-28) |
+
+Arithmetic: 16,791 + 8,530 + 3,401 = 28,722. MW moves in the September audit: Poolside (2,000 MW)
+Announced-only → Progressing; Childress (1,000 MW) Progressing → Evidenced; Google Armstrong
+(undisclosed MW) Evidenced → Progressing. Evidenced 15,791 + 1,000 = 16,791; Progressing 7,530 +
+2,000 − 1,000 = 8,530; Announced-only 5,401 − 2,000 = 3,401. Prior version (2026-09-26): Evidenced
+8 / 15,791 MW, Progressing 8 / 7,530 MW, Announced-only 5 / 5,401 MW.
 
 Fermi moved Progressing→Evidenced this refresh (65→80), carrying its 11,000 MW ledger value with
 it — that single move is why Evidenced is now the *largest* MW tier in the universe (15,791 MW)
@@ -88,7 +97,14 @@ Progressing.
 
 ## % of announced capacity that is Announced-only
 
-**6,601 / 28,722 MW = 23.0%** — **unchanged by the Fermi refresh.** Fermi was never in the
+**Current (2026-09-28): 3,401 / 28,722 MW = 11.8%** (3,401 ÷ 28,722 = 0.1184). Poolside's move to
+Progressing took 2,000 MW out of the tier.
+
+*Corrected 2026-09-28:* this section kept saying 23.0% (6,601 MW) after the 2026-09-26 SB Energy
+re-score moved 1,200 MW out of Announced-only; on that date the figure should have been 5,401 /
+28,722 = 18.8%. See `corrections.md`. The text below is the 2026-09-21 version, kept for the record.
+
+**2026-09-21: 6,601 / 28,722 MW = 23.0%** — **unchanged by the Fermi refresh.** Fermi was never in the
 Announced-only tier, so its move between Evidenced and Progressing has zero effect on this figure.
 It's down from 26.2% at the start of the Physical Commitment correction pass and 25.5% under the
 interim flat-credit version, for reasons unrelated to Fermi (Marathon, then Aligned and ECP+KKR,
@@ -102,14 +118,18 @@ this refresh: Fermi's Aug-5-vintage score would have been **73** (Site 25 + Phys
 5 + Incentive 15 + Track 3), not 65 — **Progressing→Evidenced on the correction alone**, before any
 of the September news. Because this counterfactual lands Fermi in the same tier (Evidenced) at the
 same MW value (11,000, held) as today's actual 80, **the effect on tier counts and MW-by-tier is
-identical to the table above** — Evidenced 8/15,791 MW, Progressing 7/6,330 MW, Announced-only
+identical to the tier table as it stood on 2026-09-21** — Evidenced 8/15,791 MW, Progressing 7/6,330 MW, Announced-only
 unchanged at 6/6,601 MW. The **23% Announced-only headline does not change** under this
 counterfactual either, for the same reason it doesn't change today: Fermi was never in that tier.
 The +7-point gap between the 73 counterfactual and the actual 80 is entirely the Financial
 Commitment signal, and is genuinely new information from the last six weeks, not something a more
 careful Aug 5 pass would have caught.
 
-**Sensitivity note, updated:** Fermi's 11,000 MW is now inside the Evidenced tier, not Progressing.
+**Sensitivity note, updated 2026-09-28:** stripping Fermi's 11,000 MW out, Evidenced drops to
+16,791 − 11,000 = 5,791 MW, and Announced-only's share of the remaining 28,722 − 11,000 = 17,722 MW is
+3,401 / 17,722 = **19.2%**. The 2026-09-21 version of this note follows.
+
+**Sensitivity note (2026-09-21):** Fermi's 11,000 MW is now inside the Evidenced tier, not Progressing.
 Stripping it out of Evidenced instead: Evidenced drops to 4,791 MW, and Announced-only's share of
 the *remaining* 17,722 MW-disclosed universe (excluding Fermi entirely) is 6,601/17,722 = **37.3%**
 — unchanged from the prior version of this note, since that calculation was always about removing
@@ -118,7 +138,12 @@ headline with or without this one outsized project remains a real editorial choi
 
 ## Most / least evidenced megaprojects
 
-- **Most evidenced: Meta's El Paso AI Data Center — 97/100.** Full or near-full marks on all five
+- **Updated 2026-09-28:** the highest total is now **Riot Platforms' Corsicana Facility, 91**
+  (renormalized /75 — Physical excluded), followed by Cipher's Barber Lake, 88 (renormalized) and
+  Google's Haskell "Journey," 87 (renormalized). On the standard /100 basis the highest is **Meta,
+  83**, down from 97 because its dedicated power plant (PUC Docket 59076) has no final order and is
+  now scored 8/25 "applied, pending." The 2026-08-05 text below is kept for the record.
+- **Most evidenced (as of 2026-08-05): Meta's El Paso AI Data Center — 97/100.** Full or near-full marks on all five
   signals: a council-approved land sale to a named SPV, a PUC-filed dedicated power plant, an
   escalating $10B investment disclosure, an executed 25-year municipal + county tax abatement that
   survived a repeal vote, and the deepest hyperscale delivery record in the industry. (Google's
@@ -131,7 +156,7 @@ headline with or without this one outsized project remains a real editorial choi
   changed; only the Physical Commitment treatment did.
 - **Notable: size and evidence still aren't tightly correlated, though this got weaker as a
   finding this refresh.** As of 2026-09-21, Fermi (the single largest project by MW, 11 GW) scores
-  80/100 (Evidenced, tied for 3rd of 21) — no longer the clean "biggest ≠ best-evidenced" example it
+  80/100 (Evidenced, tied for 3rd of 21; tied for 5th as of 2026-09-28) — no longer the clean "biggest ≠ best-evidenced" example it
   was at 65/100. The underlying reason it moved is instructive rather than reassuring: the Financial
   Commitment jump reflects a real signed lease, but Sponsor Track Record — the signal that most
   directly asks "should you trust this sponsor" — is still 3/20 and, if anything, has more
@@ -161,40 +186,52 @@ center has, or can have, its own JETI agreement; whether their power plants sepa
 an open, plant-by-plant question this session did not exhaustively chase.**
 
 The incentive activity that does exist for these projects instead runs through two *different*
-channels: (1) the Comptroller's separate §151.359 "Qualifying Data Center" sales-tax-exemption
-registry, which directly named 11 of the 21 projects (manually verified against the raw registry
-table, not an AI summary — see `evidence_appendix.md`), plus a circumstantial-only match for
-Vantage/Frontier (Oracle-occupant entries; the registry prints no county, so not geographically
-confirmed); and (2) county/municipal property-tax
-abatements negotiated directly with a commissioners court or city council, confirmed for **3 of 21**
-as of 2026-09-21 (Meta/El Paso; Google's Haskell/"Journey" site; and Fermi's Carson County Chapter
-312 abatement, executed 2025-10-27 and confirmed this refresh by reading the county-clerk-filed
-document directly — a fact that existed at the original Aug 5 capture and was missed then). [Ryan LLP](https://ryan.com/about-ryan/news-and-insights/2025/texas-jeti-incentive-strategy/), [KE Andrews](https://www.keatax.com/how-the-texas-jeti-act-shapes-manufacturing-energy-and-technology-investment/) — captured 2026-08-05, Fermi correction captured 2026-09-21.
+channels: (1) the Comptroller's separate data center sales-tax-exemption registry — two tables,
+"Registered Qualifying Large Data Center Projects" (Tax Code §151.3595) and "Registered Qualifying
+Data Center Projects" (§151.359) — which directly names **12 of the 21 projects** (11 in the
+§151.3595 table: Fermi, Crusoe Abilene, Poolside, SB Energy, Meta, Hut 8, Crusoe Childress, Riot,
+Google Armstrong, Core Scientific, Cipher; 1 in the §151.359 table: Aligned), plus a
+circumstantial-only match for Vantage/Frontier (Oracle-occupant entries; the registry prints no
+county, so not geographically confirmed). *Corrected 2026-09-28: this previously said 11 of 21 and
+"§151.359" for all; a recount from `scored_table.csv` gives 12, unchanged by the September audit.*
+And (2) county/municipal property-tax abatements negotiated directly with a commissioners court or
+city council, confirmed for **7 of 21** as of 2026-09-28: Meta/El Paso; Google's Haskell "Journey"
+site; Fermi (Carson County, executed 2025-10-27); and, found in the September audit, Crusoe Abilene
+(City of Abilene, with Taylor County authorization), Crusoe Childress (Childress County, executed
+2025-03-10), Riot (Navarro County, approved with authority to execute 2024-10-15) and Cipher
+(Mitchell County, executed 2025-12-15). All seven existed before the Aug 5 capture; five were missed
+then (Fermi, caught 2026-09-21; Crusoe Abilene, Childress, Riot and Cipher, caught 2026-09-28). (Earlier count:
+3 of 21 as of 2026-09-21.) [Ryan LLP](https://ryan.com/about-ryan/news-and-insights/2025/texas-jeti-incentive-strategy/), [KE Andrews](https://www.keatax.com/how-the-texas-jeti-act-shapes-manufacturing-energy-and-technology-investment/) — captured 2026-08-05, Fermi correction captured 2026-09-21.
 
 ## The permit-by-rule visibility finding
 
-**9 of 21 projects have permit
-evidence** (per `scored_table.csv`): **4 at full credit, 25/25** (Fermi, Abilene, Vantage/Frontier,
-Google/Armstrong via Crusoe's "Goodnight" plant) and **5 at partial credit** (Meta 22/25, PUC
-filing; Riot 20/25, TDLR building permit; Cipher 12/25, portable plant only; CloudBurst/San Marcos
-8/25, flood permit only; PowerHouse/Irving 5/25, building milestone only). With the 2 true zeros
-and the 10 not-observable projects below: 9 + 2 + 10 = 21. **10 of 21 have a power strategy that plausibly qualifies for
+*Recomputed 2026-09-28 from `scored_table.csv` after the September audit:* **5 of 21 projects have
+issued-permit or equivalent evidence** — **3 at full credit, 25/25** (Fermi, TCEQ 181009; Crusoe
+Abilene, TCEQ standard permit 177263; Poolside, TCEQ standard permit 183235) and **2 at partial
+credit** (CloudBurst/San Marcos 8/25, flood permit; PowerHouse/Irving 5/25, building milestone —
+both flagged: neither record could be verified on the issuing portal). **3 of 21 are "applied,
+pending" at 8/25** (Vantage/Frontier, TCEQ 182467; Google/Armstrong, TCEQ 182880; Meta, PUC Docket
+59076). With the 1 true zero and the 12 not-observable projects below: 5 + 3 + 1 + 12 = 21. *(The
+2026-09-26 version counted 9 with permit evidence, 2 true zeros and 10 not-observable; the audit
+found that Vantage's, Google Armstrong's and Meta's credit rested on pending applications, Riot's
+TDLR record is an accessibility registration, Cipher's is a §106.511 backup registration, and
+Poolside's true zero was an issued permit missed.)* **12 of 21 have a power strategy that plausibly qualifies for
 TCEQ's "permit by rule" under 30 TAC §106.511** — grid interconnection plus standard-size
 backup/emergency generators, or reliance on an existing third-party plant — a category that
 requires **no individual public notice and no opportunity for a hearing**, the same permitting
-route commonly used for equipment like dry cleaners' boilers. For these 10, Physical Commitment is
+route commonly used for equipment like dry cleaners' boilers. For these 12, Physical Commitment is
 not scored as a zero or a partial credit; it is **excluded from the calculation entirely** and
 displayed as "n/o (§106.511)," with the total renormalized over the remaining 75 points (see
-`methodology.md`). **Only 2 of 21 (Poolside, Tract) remain a true zero** (SB Energy moved to n/o (§106.511) on 2026-09-26; see `corrections.md`) — cases where
+`methodology.md`). **Only 1 of 21 (Tract) remains a true zero** (SB Energy moved to n/o (§106.511) on 2026-09-26; Poolside moved to confirmed-permitted on 2026-09-28; see `corrections.md`) — cases where
 the project's own stated power strategy would need an individually-permitted facility at scale, and
 none was found despite that expectation being reasonable.
 
 The upshot, stated plainly: **the public visibility of physical build-out is a function of scale
 and regulatory category, not of how real a project is.** A true zero is a more meaningful signal
-than a blanket "no evidence found" would suggest; treating the other 9 as unobservable rather than
+than a blanket "no evidence found" would suggest; treating the 12 as unobservable rather than
 absent — and refusing to let that non-signal drag down an otherwise well-evidenced project's total
-— is the more honest way to handle a genuine "can't tell," at the cost of making those 9 scores
-non-comparable, signal-for-signal, to the 12 scored on the standard /100 basis. That tradeoff is
+— is the more honest way to handle a genuine "can't tell," at the cost of making those 12 scores
+non-comparable, signal-for-signal, to the 9 scored on the standard /100 basis. That tradeoff is
 made explicit everywhere a renormalized score appears, not smoothed over.
 
 ## The no-public-queue-reconciliation finding

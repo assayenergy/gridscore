@@ -34,7 +34,7 @@ Citations: "S-1/A2" is [S-1/A No. 2, 2026-09-21](https://www.sec.gov/Archives/ed
   3. The tenant has buy-out rights "if delays in meeting applicable RFS conditions persist for 365 days or more", with "no extensions for utility delays" (S-1/A2 p.201, p.18).
   4. ERCOT's energization pause: "ERCOT will not approve any authorizations to energize data center Large Loads until the verification and audit process is complete" ([PUCT 59142, Item 42, 2026-08-10](https://interchange.puc.texas.gov/Documents/59142_42_1672561.PDF)).
 
-## Incentive filings — 7/15 (§151.359 registry cap)
+## Incentive filings — 7/15 (registry cap; §151.3595 Large Data Center table, relabeled 2026-09-28 from §151.359)
 - [Comptroller registry](https://comptroller.texas.gov/taxes/data-centers/data-center-lists.php), "Registered Qualifying Large Data Center Projects":
   - "Milam County Data Center" — effective 12/09/2025; Owner MDC Building 1, LLC; Occupant Orion DC I, LLC; Operator Milam County DC, LLC.
   - "Milam County Data Center Phase 2" — effective 06/10/2026; Owner MDC Building 2, LLC; same occupant and operator.

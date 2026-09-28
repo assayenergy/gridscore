@@ -38,8 +38,8 @@ Legend: ● strong evidence · ◐ partial/self-reported · ○ no public eviden
    real, confirmed finding — not a search failure — and probably belongs in the publication:
    the headline incentive program isn't where these projects' incentives are actually showing up.
 2. **A different, adjacent state program is where the incentive trail actually lives.** The
-   Comptroller's "Qualifying Data Center" registry (Tax Code §151.359 sales-tax exemption —
-   distinct from JETI) directly named 8 of the 21 projects, several by exact facility name
+   Comptroller's "Qualifying Data Center" registry (Tax Code §151.359 and, for the "Large Data
+   Center" table, §151.3595 sales-tax exemptions; statute label corrected 2026-09-28 — distinct from JETI) directly named 8 of the 21 projects, several by exact facility name
    (Cipher's "Barber Lake," Aligned's "Abernathy (LBB01)," Lancium's "Childress"). This is a
    different signal than the spec's #4 definition (JETI/Ch.403/county abatement) — logged
    separately in each evidence file, not conflated with it. **Caveat: these registry matches came

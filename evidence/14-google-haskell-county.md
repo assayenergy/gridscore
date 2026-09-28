@@ -15,6 +15,16 @@ County: Haskell · Announced MW: not disclosed per-site (part of bundled $40B/6,
 ## Incentive filings
 **Inconclusive — needs manual verification.** Same situation as #13 — Google's Comptroller registry entries don't obviously map to Haskell by name in the AI-summarized fetch. Flag for manual pass.
 
+**Updated 2026-09-28 (September audit; score unchanged, 15).** The executed agreement is "TAX
+ABATEMENT AGREEMENT BETWEEN HASKELL COUNTY AND HOMEBOUND GROUP LLC," zone "Haskell County Journey RZ
+2025." Approved by the Commissioners Court 2025-06-24 (County Judge signature, attest "6-24-25");
+signed for Homebound Group LLC 7/31/25. The agreement is effective "as of the date of the last
+Party's signature," so the **effective date is 2025-07-31**, not 2025-06-24 (corrected 2026-09-28).
+A separate "Quest" agreement (same county, same company) became effective 2026-04-28 and is not
+scored. The registry's "Fort Haskell Data Center" entry is in the §151.359 Qualifying Data Center
+table, not tied to Journey.
+- Source: [Journey agreement](https://newtools.cira.state.tx.us/upload/page/9220/docs/Homebound%20Group%20LLC.pdf) — captured 2026-09-28.
+
 ## Sponsor track record
 **Evidence found — strongest tier.** Same as #13 — Google's global hyperscale delivery record applies equally here.
 

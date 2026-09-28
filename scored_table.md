@@ -3,16 +3,17 @@
 Scored per the five-signal rubric. Tiers: 70–100 Evidenced · 40–69 Progressing · 0–39
 Announced-only. Two scoring regimes now coexist, both landing on the same 0–100 scale:
 
-- **Standard /100** — used for the 11 projects with either a confirmed Physical Commitment
-  finding (partial or full) or a genuine true zero. All 5 signals count, denominator is 100.
-- **Renormalized /75** — used for the 10 projects whose generator setup plausibly qualifies for
+- **Standard /100** — used for the 9 projects with a confirmed Physical Commitment finding
+  (partial or full), a pending application ("applied, pending", 8/25), or a genuine true zero. All 5 signals count, denominator is 100.
+- **Renormalized /75** — used for the 12 projects whose generator setup plausibly qualifies for
   TCEQ permit-by-rule (§106.511) coverage, meaning a public docket's absence is structurally
   uninformative, not evidence of anything. Physical Commitment is **excluded from both the
   numerator and the denominator** rather than scored: `total = (Site + Financial + Incentive +
   Track Record) / 75 × 100`. Physical displays as **"n/o (§106.511)"** — not observed, not zero.
 
-Per Vish's ruling: Incentive Filings scores cap at **7/15** when the only evidence is a §151.359
-Qualifying Data Center registry match; an **executed JETI agreement or county/municipal
+Per Vish's ruling: Incentive Filings scores cap at **7/15** when the only evidence is a Comptroller
+data center registry match (§151.3595 "Qualifying Large Data Center" table or §151.359 "Qualifying
+Data Center" table; labeled by table since 2026-09-28); an **executed JETI agreement or county/municipal
 abatement** can score up to the full 15 — though no data center can hold a JETI agreement in the
 first place (see the JETI-NAICS footnote in `key-stats.md`). No negative scoring is applied for
 documented reversals — those are logged as a flag with citation, never subtracted.
@@ -31,28 +32,38 @@ capex). See `evidence/01-fermi-america-project-matador.md` for the full citation
 two corrected/removed claims from the prior draft (a misattributed 8-K accession, and litigation
 that had the moving party backwards).
 
+**Correction (2026-09-28, September audit):** every cited permit was re-checked on the issuing
+agency's record and every county and city searched for an executed incentive agreement. Eight
+totals changed; the table below is re-computed from `scored_table.csv` and re-ranked. Summary:
+Poolside 26→51 (an issued TCEQ standard permit, 183235, had been missed); Vantage 59→42, Google
+Armstrong 72→55 and Meta 97→83 (their Physical credit rested on applications still pending — now
+scored 8, "applied, pending"); Riot 80→91 and Cipher 72→88 (Physical moved to not observable;
+executed or authorized county abatements had been missed; Cipher Financial 15→13); Crusoe Abilene
+72→80 and Childress 64→75 (executed abatements had been missed). Full list with sources:
+`corrections.md`, 2026-09-28.
+
 | Rank | Project | Sponsor | County | MW | Site (25) | Physical (25) | Financial (15) | Incentive (15) | Track Record (20) | **Total** | Scoring basis | Tier | Reversal |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | El Paso AI Data Center | Meta | El Paso Co. | 1,000 | 25 | 22 | 15 | 15 | 20 | **97** | standard /100 | Evidenced | — |
-| 2 | Panhandle — Haskell Co. ("Journey") | Google | Haskell Co. | n/d | 20 | n/o (§106.511) | 10 | 15 | 20 | **87** | renormalized /75 | Evidenced | — |
-| 3 | Project Matador (HyperGrid) | Fermi America | Carson Co.* | 11,000 | 25 | 25 | 12 | 15 | 3 | **80** | standard /100 | Evidenced | **YES** |
-| 3 | Corsicana Facility | Riot Platforms | Navarro Co. | 1,000 | 22 | 20 | 15 | 7 | 16 | **80** | standard /100 | Evidenced | — |
-| 5 | Denton Campus | Core Scientific | Denton Co. | 391 | 25 | n/o (§106.511) | 15 | 7 | 10 | **76** | renormalized /75 | Evidenced | — |
-| 6 | Abilene Campus | Crusoe/Lancium | Taylor Co. | 2,100 | 12 | 25 | 10 | 7 | 18 | **72** | standard /100 | Evidenced | — |
-| 6 | Panhandle — Armstrong Co. | Google | Armstrong Co. | n/d | 15 | 25 | 5 | 7 | 20 | **72** | standard /100 | Evidenced | — |
-| 6 | Barber Lake | Cipher Mining | Mitchell Co. | 300 | 22 | 12 | 15 | 7 | 16 | **72** | standard /100 | Evidenced | — |
-| 9 | Childress Campus | Crusoe/Lancium | Childress Co. | 1,000 | 15 | n/o (§106.511) | 8 | 7 | 18 | **64** | renormalized /75 | Progressing | — |
-| 10 | Stargate Milam County | SB Energy (SoftBank) | Milam Co. | 1,200 | 20 | n/o (§106.511) | 12 | 7 | 8 | **63** | renormalized /75 | Progressing | — |
-| 11 | Beacon Point | Hut 8 | Nueces Co. | 1,000 | 10 | n/o (§106.511) | 15 | 7 | 14 | **61** | renormalized /75 | Progressing | — |
-| 12 | Frontier | Vantage Data Centers | Shackelford Co. | 1,400 | 12 | 25 | 8 | 4 | 10 | **59** | standard /100 | Progressing | — |
+| 1 | Corsicana Facility | Riot Platforms | Navarro Co. | 1,000 | 22 | n/o (§106.511) | 15 | 15 | 16 | **91** | renormalized /75 | Evidenced | — |
+| 2 | Barber Lake | Cipher Mining | Mitchell Co. | 300 | 22 | n/o (§106.511) | 13 | 15 | 16 | **88** | renormalized /75 | Evidenced | — |
+| 3 | Panhandle — Haskell Co. ("Journey") | Google | Haskell Co. | n/d | 20 | n/o (§106.511) | 10 | 15 | 20 | **87** | renormalized /75 | Evidenced | — |
+| 4 | El Paso AI Data Center | Meta | El Paso Co. | 1,000 | 25 | 8 (applied, pending) | 15 | 15 | 20 | **83** | standard /100 | Evidenced | — |
+| 5 | Abilene Campus | Crusoe/Lancium | Taylor Co. | 2,100 | 12 | 25 | 10 | 15 | 18 | **80** | standard /100 | Evidenced | — |
+| 5 | Project Matador (HyperGrid) | Fermi America | Carson Co.* | 11,000 | 25 | 25 | 12 | 15 | 3 | **80** | standard /100 | Evidenced | **YES** |
+| 7 | Denton Campus | Core Scientific | Denton Co. | 391 | 25 | n/o (§106.511) | 15 | 7 | 10 | **76** | renormalized /75 | Evidenced | — |
+| 8 | Childress Campus | Crusoe/Lancium | Childress Co. | 1,000 | 15 | n/o (§106.511) | 8 | 15 | 18 | **75** | renormalized /75 | Evidenced | — |
+| 9 | Stargate Milam County | SB Energy (SoftBank) | Milam Co. | 1,200 | 20 | n/o (§106.511) | 12 | 7 | 8 | **63** | renormalized /75 | Progressing | — |
+| 10 | Beacon Point | Hut 8 | Nueces Co. | 1,000 | 10 | n/o (§106.511) | 15 | 7 | 14 | **61** | renormalized /75 | Progressing | — |
+| 11 | Panhandle — Armstrong Co. | Google | Armstrong Co. | n/d | 15 | 8 (applied, pending) | 5 | 7 | 20 | **55** | standard /100 | Progressing | — |
+| 12 | Project Horizon | Poolside AI | Pecos Co. | 2,000 | 15 | 25 | 2 | 7 | 2 | **51** | standard /100 | Progressing | **YES** |
 | 13 | Garden City Facility | Marathon Digital | Glasscock Co. | 200 | 22 | n/o (§106.511) | 5 | 0 | 9 | **48** | renormalized /75 | Progressing | — |
 | 14 | Project Caprock | Aligned Data Centers | Hale Co. | 540 | 10 | n/o (§106.511) | 6 | 7 | 10 | **44** | renormalized /75 | Progressing | — |
-| 15 | Data Center Technology Park | Tract | Caldwell Co. | 2,000 | 18 | 0 (true zero) | 8 | 0 | 14 | **40** | standard /100 | Progressing | — |
-| 15 | Bosque County Campus | ECP+KKR/CyrusOne | Bosque Co. | 190 | 5 | n/o (§106.511) | 15 | 0 | 10 | **40** | renormalized /75 | Progressing | — |
-| 17 | Grand Prairie Campus | PowerHouse/Provident | Ellis Co. | 1,800 | 10 | n/o (§106.511) | 6 | 0 | 8 | **32** | renormalized /75 | Announced-only | — |
-| 18 | San Marcos Data Center I | CloudBurst/Evolve | Hays/Guadalupe Co. | 1,200 | 12 | 8 | 10 | 0 | 0 | **30** | standard /100 | Announced-only | — |
-| 19 | Irving Campus | PowerHouse Data Centers | Dallas Co. | 201 | 10 | 5 | 5 | 0 | 8 | **28** | standard /100 | Announced-only | — |
-| 20 | Project Horizon | Poolside AI | Pecos Co. | 2,000 | 15 | 0 (true zero) | 2 | 7 | 2 | **26** | standard /100 | Announced-only | **YES** |
+| 15 | Frontier | Vantage Data Centers | Shackelford Co. | 1,400 | 12 | 8 (applied, pending) | 8 | 4 | 10 | **42** | standard /100 | Progressing | — |
+| 16 | Bosque County Campus | ECP+KKR/CyrusOne | Bosque Co. | 190 | 5 | n/o (§106.511) | 15 | 0 | 10 | **40** | renormalized /75 | Progressing | — |
+| 16 | Data Center Technology Park | Tract | Caldwell Co. | 2,000 | 18 | 0 (true zero) | 8 | 0 | 14 | **40** | standard /100 | Progressing | — |
+| 18 | Grand Prairie Campus | PowerHouse/Provident | Ellis Co. | 1,800 | 10 | n/o (§106.511) | 6 | 0 | 8 | **32** | renormalized /75 | Announced-only | — |
+| 19 | San Marcos Data Center I | CloudBurst/Evolve | Hays/Guadalupe Co. | 1,200 | 12 | 8 | 10 | 0 | 0 | **30** | standard /100 | Announced-only | — |
+| 20 | Irving Campus | PowerHouse Data Centers | Dallas Co. | 201 | 10 | 5 | 5 | 0 | 8 | **28** | standard /100 | Announced-only | — |
 | 21 | Kaufman County Campus | Prometheus Hyperscale | Kaufman Co. | 200 | 8 | n/o (§106.511) | 5 | 0 | 6 | **25** | renormalized /75 | Announced-only | — |
 
 *Fermi's county assignment (Carson primary vs. Potter/Randall touching) is unresolved. n/d = MW not
@@ -64,8 +75,9 @@ ordered.
 
 This is the diff between the *previous* correction (a flat +5 points added to Physical
 Commitment, scored out of 100 as before) and the *current* renormalization (Physical excluded
-entirely, total computed out of the remaining 75 points). Only the 9 NOC projects are affected;
-the other 12 are identical under both treatments.
+entirely, total computed out of the remaining 75 points). Only the not-observable projects are
+affected (9 at first publication, 12 as of 2026-09-28); the others are identical under both
+treatments.
 
 | Project | Flat-+5 total (/100) | Renormalized total (/75→100) | Flat tier | Renormalized tier |
 |---|---|---|---|---|
@@ -78,6 +90,13 @@ the other 12 are identical under both treatments.
 | Garden City Facility (Marathon) | 41 | 48 | Progressing | Progressing |
 | Kaufman County Campus (Prometheus) | 24 | 25 | Announced-only | Announced-only |
 | **Bosque County Campus (ECP+KKR/CyrusOne)** | 35 | **40** | Announced-only | **Progressing** |
+| Stargate Milam County (SB Energy), moved to n/o 2026-09-26 | 52 | 63 | Progressing | Progressing |
+| Corsicana Facility (Riot), moved to n/o 2026-09-28 | 73 | 91 | Evidenced | Evidenced |
+| Barber Lake (Cipher), moved to n/o 2026-09-28 | 71 | 88 | Evidenced | Evidenced |
+
+The last three rows were added when those projects moved into the not-observable category. Their
+flat-+5 figures are for comparison only and were never published: SB Energy 20 + 5 + 12 + 7 + 8 =
+52; Riot 22 + 5 + 15 + 15 + 16 = 73; Cipher 22 + 5 + 13 + 15 + 16 = 71.
 
 **Three additional tier changes emerged from renormalization that the flat-credit version missed**:
 Aligned and ECP+KKR both cross from Announced-only into Progressing, and Core Scientific crosses
@@ -91,7 +110,10 @@ comfortably inside it (87) — a materially different confidence read on the sam
 · Announced-only 6. **After the Fermi refresh (2026-09-21): Evidenced 8 · Progressing 7 · Announced-only
 6.** Fermi moved Progressing→Evidenced (65→80); no other project changed that pass. **Current, after
 the SB Energy re-score (2026-09-26): Evidenced 8 · Progressing 8 · Announced-only 5.** SB Energy moved
-Announced-only→Progressing (36→63); see `corrections.md`.
+Announced-only→Progressing (36→63); see `corrections.md`. **Current, after the September audit
+(2026-09-28): Evidenced 8 · Progressing 9 · Announced-only 4.** Tier moves: Poolside
+Announced-only→Progressing; Childress Progressing→Evidenced; Google Armstrong
+Evidenced→Progressing.
 
 ## Reversal flags (informational only — not scored as penalties)
 
@@ -112,26 +134,21 @@ Announced-only→Progressing (36→63); see `corrections.md`.
 
 ## Re-refreshed near-boundary watchlist — press-reported-only site control, within ~5 of a cutoff
 
-Recomputed on the renormalized totals. This list changed again from the prior version: Aligned
-newly qualifies (its renormalized total moved closer to 40), and **ECP+KKR/CyrusOne now sits
-exactly on the Progressing floor at 40** — both artifacts of renormalization lifting NOC projects
-more than the flat credit did.
+Recomputed 2026-09-28 from `scored_table.csv` after the September audit (cutoffs 40 and 70;
+`site_control_confidence` = press-reported-only; |total − cutoff| ≤ 5). Abilene (now 80) and Google
+Armstrong (now 55) drop off; Frontier (now 42) and Childress (now 75) join.
 
 | Project | County | Total | Boundary | Distance |
 |---|---|---|---|---|
 | **Data Center Technology Park (Tract)** | Caldwell Co. | 40 | Progressing floor | exactly on it |
 | **Bosque County Campus (ECP+KKR/CyrusOne)** | Bosque Co. | 40 | Progressing floor | exactly on it |
-| **Abilene Campus (Crusoe/Lancium)** | Taylor Co. | 72 | Evidenced floor | +2 |
-| **Panhandle — Armstrong Co. (Google)** | Armstrong Co. | 72 | Evidenced floor | +2 |
+| **Frontier (Vantage)** | Shackelford Co. | 42 | Progressing floor | +2 |
 | **Project Caprock (Aligned)** | Hale Co. | 44 | Progressing floor | +4 |
-| *Childress Campus (Crusoe/Lancium) — just outside the ~5 window* | Childress Co. | 64 | Evidenced floor | −6 (noting it since it's close, not a strict qualifier) |
+| **Childress Campus (Crusoe/Lancium)** | Childress Co. | 75 | Evidenced floor | +5 |
 
 Excluded from this specific cut because their site-control confidence is government-record, not
-press-reported-only, even though their totals are also near a cutoff: SB Energy (63, re-scored from
-36 on 2026-09-26, see `corrections.md`; government-record via SEC exhibit; 70 − 63 = 7 below the
-Evidenced floor, just outside the ~5 window), Google/Haskell (87, government-record, no
-longer boundary-fragile after renormalization), Marathon (48, government-record, not close to a
-cutoff under the new total).
+press-reported-only, even though their totals are also near a cutoff: SB Energy (63; 70 − 63 = 7
+below the Evidenced floor, just outside the ~5 window), Marathon (48, not close to a cutoff).
 
 ## Google Haskell County identity resolution (30-minute time-box, per Vish's instruction)
 
@@ -139,7 +156,8 @@ Unchanged from the prior write-up — still genuinely unresolved:
 
 - **"Journey"** (north Haskell) and **"Thelma"** (south Haskell) are two distinct, real,
   Google-linked sites developed by "Housebound Group" / "Homebound Group LLC." Journey has a
-  confirmed Haskell County Commissioners Court tax abatement, approved 2025-06-24, with ~$1B
+  confirmed Haskell County Commissioners Court tax abatement, approved 2025-06-24 (effective
+  2025-07-31 on the last signature; corrected 2026-09-28), with ~$1B
   Phase 1 capex disclosed in the court record itself. [Court filing PDF](https://newtools.cira.state.tx.us/upload/page/9220/docs/Homebound%20Group%20LLC.pdf), [DCD](https://www.datacenterdynamics.com/en/news/google-linked-housebound-group-files-for-two-data-center-projects-in-haskell-texas/) — captured 2026-08-05.
 - The §151.359 registry's "Fort Haskell Data Center" entry (eff. 2024-01-16) does not obviously
   correspond to either name and predates the Nov 2025 Google announcement.

@@ -15,5 +15,16 @@ County: Bosque · Announced: 190 MW total (144MW initial IT capacity) · Sponsor
 ## Incentive filings
 **Inconclusive — needs manual verification.** CyrusOne appears on the Comptroller's Qualifying Data Center registry, but under "Houston West III, San Antonio facilities" — no Bosque County match in the AI-summarized fetch. Given how recent this announcement is (July 2025), it may simply not be registered yet rather than a true non-match.
 
+**Updated 2026-09-28 (September audit; score unchanged, 0).** Lead, not scored: Bosque County minutes
+of 2024-11-12 record "the motion we enter into a Tax Abatement Agreement with and between Bosque
+County and CYRUSONE, LP for 30% tax abatement … All approved," following designation of the "Bosque
+County CyrusOne LP Reinvestment Zone #24-02" on 2024-10-21. No authorization to execute is recorded,
+no executed copy was found, and no 2025–2026 minutes are posted; a 2026-02-23 agenda item concerns
+"FILING CORRECTED CYRUSONE ABATEMENT AGREEMENT DATED NOVEMBER 11, 2024." Tying this CyrusOne zone to
+the ECP + KKR / Thad Hill campus is INFERENCE. Stays 0 until an executed agreement is found.
+- Sources: [minutes 2024-11-12](https://bosquecounty.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012000-188),
+  [minutes 2024-10-21](https://bosquecounty.gov/AgendaCenter/ViewFile/ArchivedMinutes/_01012000-191),
+  [agenda 2026-02-23](https://www.bosquecounty.gov/AgendaCenter/ViewFile/Agenda/_02232026-457) — captured 2026-09-28.
+
 ## Sponsor track record
 **Evidence found — strong, general reputation.** CyrusOne is a well-established, long-operating US data-center developer with many delivered campuses; KKR and Energy Capital Partners are major, well-capitalized institutional investors. Specific named-campus delivery citations for CyrusOne were not pulled this session — flag as an open item if citation-level detail is wanted.
