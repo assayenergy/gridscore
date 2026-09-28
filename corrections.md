@@ -268,5 +268,8 @@ registry labels), evidence files 01, 02, 03, 06, 08, 09, 10, 11, 12, 13, 14, 15,
 itself (chart 3 now labels a tier segment under 20% of the bar below it, because the smaller
 Announced-only segment clipped its label; no data logic changed).
 
+Replaced "see corrections.md" with the full corrections URL in four CSV rows (1, 2, 8, 11) and the
+matching `scored_table.md` note; fixed a typo in the Bosque note. No score changed.
+
 **Not changed, intentionally:** `essay-final.md` (published; Meta's 97 and the tier and MW figures in
 it are now superseded and need a correction note where it is published).
